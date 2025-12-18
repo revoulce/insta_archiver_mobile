@@ -245,4 +245,21 @@ doc/api/
 *.js.deps
 *.js.map
 
+### Android template
+# Android Studio generated files and folders
+.externalNativeBuild/
+.cxx/
+output.json
+
+# IntelliJ
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
 

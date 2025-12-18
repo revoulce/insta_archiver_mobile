@@ -21,16 +21,38 @@ dependencies:
   hive_flutter: ^1.1.0
   intl: ^0.20.2
   uuid: ^4.5.2
-  receive_sharing_intent: ^1.8.1
+  receive_sharing_intent:
+    git:
+      url: https://github.com/KasemJaffer/receive_sharing_intent.git
+      ref: ade703987e0dc26749c4291ad66d790e7d9dfa44
+  injectable: ^2.7.1+2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^6.0.0
-
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+  injectable_generator: ^2.6.2
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
 
 flutter:
-
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1E1E1E"
+  adaptive_icon_foreground: "assets/icon.png"
+
+flutter_native_splash:
+  color: "#121212"
+  image: "assets/icon.png"
+  android_12:
+    image: "assets/icon.png"
+    icon_background_color: "#121212"
+
 
